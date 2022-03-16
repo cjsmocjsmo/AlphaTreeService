@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+import '../styles/atsGo.css'
+import Head from '../components/Head.astro';
+
+import Banner from '../components/Banner.astro';
+import MainImage from '../components/MainImage.astro';
+import Mission from '../components/Mission.astro';
+import MainVid from '../components/MainVid.astro';
+import MainDiv from '../components/MainDiv.astro';
+import Review from '../components/Reviews.astro';
+import PostReview from '../components/PostReview.astro';
+import FloatingButton from '../components/FloatingButton.astro';
+import Footer from '../components/Footer.astro';
+
+---
+<html lang="en">
+	<head>
+		<Head />
+	</head>
+	<body class="main">
+		<Banner />
+		<MainImage />
+		<div class="hr1">
+			<hr >
+		</div>
+		<br>
+		<br>
+		<br>
+		<Mission />
+		<MainVid src="https://www.youtube.com/embed/PHDLlOBqkjw" />
+		<MainDiv />
+		<div class="box2">
+				<!-- <iframe id="secVid" width="700" height="400" src="https://www.youtube.com/embed/mfWPIOh30nI"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+				</iframe> -->
+				<iframe id="secVid" width="700" height="400" src="https://www.youtube.com/embed/MAhLq6x6jOM"
+					title="YouTube video player" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+				</iframe>
+			
+		</div>
+		<Review />
+		<PostReview />
+		
+		<FloatingButton />
+		<Footer />
+		
+	</body>
+</html>

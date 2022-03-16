@@ -1,0 +1,110 @@
+iframe#mainVid {
+    display: block;
+    position: relative;
+    top: 56vh;
+    width: 1750px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+@media (max-width: 1840px) {
+    iframe#mainVid {
+        display: block;
+        position: relative;
+        top: 63vh;
+        width: 787.5px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1510px) {
+    iframe#mainVid {
+        display: block;
+        position: relative;
+        top: 85vh;
+    }
+
+}
+
+@media (max-width: 1310px) {
+    iframe#mainVid {
+        position: relative;
+        top: 95vh;
+        width: 787.5px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 1200px) {
+    iframe#mainVid {
+        position: relative;
+        top: 95vh;
+        height: 400px;
+        width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1010px) {
+    iframe#mainVid {
+        display: block;
+        position: relative;
+        top: 72vh;
+        width: 525px;
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 769px) {
+    iframe#mainVid {
+        display: block;
+        width: 467px;
+        height: 250px;
+        position: relative;
+        top: 67vh;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 650px) {
+    iframe#mainVid {
+        display: block;
+        width: 437.5px;
+        height: 250px;
+        position: relative;
+        top: 45vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 540px) {
+    iframe#mainVid {
+        display: block;
+        width: 370px;
+        height: 187px;
+        position: relative;
+        top: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 412px) {
+    iframe#mainVid {
+        display: block;
+        width: 310px;
+        height: 175px;
+        position: relative;
+        top: 28vh;
+    }
+}

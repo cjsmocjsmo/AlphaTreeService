@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: grid;
+	justify-content: center;
+	background: #f9fafb;
+	color: #111827;
+}
+
+body.main {
+	background-color: black;
+}
+
+body.admin {
+	width: 88%;
+	background-color: chocolate;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #111827;
+		color: #fff;
+	}
+}
+
+.hr1 {
+	position: relative;
+	top: 34em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+}
+
+@media (max-width: 1510px) {
+	.hr1 {
+		position: relative;
+		top: 32em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 1310px) {
+	.hr1 {
+		position: relative;
+		top: 30em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 1200px) {
+	.hr1 {
+		position: relative;
+		top: 25em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 1010px) {
+	.hr1 {
+		position: relative;
+		top: 20em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 650px) {
+	.hr1 {
+		position: relative;
+		top: 14em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 540px) {
+	.hr1 {
+		position: relative;
+		top: 12em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 412px) {
+	.hr1 {
+		position: relative;
+		top: 10em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 331px) {
+	.hr1 {
+		position: relative;
+		top: 7em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+
+
+.hr2 {
+	position: relative;
+	top: 34em;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+}
+
+@media (max-width: 1510px) {
+	.hr2 {
+		position: relative;
+		top: 32em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 1200px) {
+	.hr2 {
+		position: relative;
+		top: 30em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 1010px) {
+	.hr2 {
+		position: relative;
+		top: 21em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 650px) {
+	.hr2 {
+		position: relative;
+		top: 12em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 412px) {
+	.hr2 {
+		position: relative;
+		top: 9em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}
+
+@media (max-width: 311px) {
+	.hr2 {
+		position: relative;
+		top: 5.5em;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		color: blue;
+	}
+}

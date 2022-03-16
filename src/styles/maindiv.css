@@ -1,0 +1,229 @@
+.mainDiv {
+    margin-top: 72vh;
+}
+
+.sec {
+    background-color: rgb(6, 40, 134);
+    border: 4px solid yellowgreen;
+    border-radius: 10px;
+}
+
+.teleNum {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 6.5em;
+    font-weight: 900;
+    color: antiquewhite;
+}
+
+.atsServ {
+    text-align: center;
+    font-size: 4.5em;
+    color: antiquewhite;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.card {
+    width: 25em;
+}
+
+.cardImg {
+    border-radius: 8px;
+    width: 100%;
+}
+
+div.gallery {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+p.p-gallery {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+@media (max-width: 1840px) {
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 4.5em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 2.75em;
+        color: antiquewhite;
+    }
+
+    .card {
+        width: 17em;
+    }
+
+}
+
+@media (max-width: 1510px) {
+    .mainDiv {
+        margin-top: 89vh;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 5.5em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 3.75em;
+        color: antiquewhite;
+    }
+
+    .card {
+        width: 12em;
+    }
+}
+
+@media (max-width: 1310px) {
+    .mainDiv {
+        margin-top: 97vh;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 5.5em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 3.75em;
+        color: antiquewhite;
+    }
+
+    .card {
+        width: 12em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainDiv {
+        margin-top: 102vh;
+    }
+}
+
+@media (max-width: 1010px) {
+    .mainDiv {
+        margin-top: 75vh;
+    }
+}
+
+@media (max-width: 769px) {
+    .mainDiv {
+        margin-top: 73vh;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 4em;
+        font-weight: 900;
+        color: antiquewhite;
+        font-size: 2.75em;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 2.2em;
+        color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 650px) {
+    .mainDiv {
+        margin-top: 49vh;
+    }
+}
+
+@media (max-width: 540px) {
+    .mainDiv {
+        margin-top: 0.25vh;
+    }
+
+    .sec {
+        background-color: rgb(6, 40, 134);
+        margin-top: 17em;
+        border: 4px solid yellowgreen;
+        border-radius: 10px;
+    }
+
+    .cardDiv {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+@media (max-width: 412px) {
+    .mainDiv {
+        margin-top: -7em;
+    }
+
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 331px) {
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 1.2em;
+        color: antiquewhite;
+    }
+
+    p.p-gallery {
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1.2em;
+    }
+}

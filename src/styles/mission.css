@@ -1,0 +1,260 @@
+.curt2 {
+    position: relative;
+    color: antiquewhite;
+    font-size: 4em;
+    top: 40vh;
+    margin-right: 4em;
+    margin-left: 4em;
+    text-align: center;
+}
+
+.curt2:first-letter {
+    font-size: 4.5em;
+}
+
+.curtSig2 {
+    position: relative;
+    color: antiquewhite;
+    font-size: 3em;
+    top: 41vh;
+    text-align: center;
+}
+
+@media (max-width: 1840px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.25em;
+        top: 49vh;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 2.75em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 1.5em;
+        top: 53vh;
+        text-align: center;
+        /* margin-right: 30em; */
+    }
+}
+
+@media (max-width: 1510px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.75em;
+        top: 65vh;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 3.25em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.25em;
+        top: 72vh;
+        text-align: right;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 1310px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 75vh;
+        font-size: 2.35em;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.8em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 83vh;
+        text-align: right;
+        margin-right: 6em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 65vh;
+        font-size: 2em;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.75em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 77vh;
+        text-align: right;
+        margin-right: 2em;
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 1010px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 48vh;
+        font-size: 1.75em;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 58vh;
+        text-align: right;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 769px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        top: 50vh;
+        margin-right: 3em;
+        margin-left: 3em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 55vh;
+        text-align: center;
+        font-size: 1.2em;
+        text-align: right;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 650px) {
+    .curt2 {
+        position: relative;
+        top: 31vh;
+        color: antiquewhite;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
+
+    .curt2:first-letter {
+        font-size: 2em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        top: 38vh;
+        text-align: right;
+        margin-right: 4em;
+    }
+}
+
+@media (max-width: 540px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1.2em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 25vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.9em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        top: 30vh;
+        color: antiquewhite;
+        text-align: right;
+        margin-right: 3em;
+    }
+}
+
+@media (max-width: 412px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 20vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.9em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: white;
+        top:24vh;
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 331px) {
+    .curt2 {
+        font-style: italic;
+        font-size: 1em;
+        font-weight: 700;
+        color: antiquewhite;
+        text-align: center;
+        position: relative;
+        top: 11vh;
+    }
+
+    .curt2:first-letter {
+        font-size: 1.5em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: white;
+        top: 14vh;
+        font-size: 1em;
+    }
+}
