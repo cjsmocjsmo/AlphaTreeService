@@ -7,12 +7,14 @@ h5 {
 h3 {
   color: antiquewhite;
   font-size: 6em;
+  text-align: center;
 }
 
 iframe#secVid {
   width: 1750px;
   height: 1000px;
   border-radius: 12px;
+  margin: 2em auto 2em auto;
 }
 
 @media (max-width: 1840px) {
@@ -20,6 +22,7 @@ iframe#secVid {
     width: 787.5px;
     height: 450px;
     border-radius: 12px;
+    margin: 2em auto 2em auto;
   }
 
   h5 {
@@ -40,6 +43,7 @@ iframe#secVid {
     width: 1050px;
     height: 600px;
     border-radius: 12px;
+    margin: 2em auto 2em auto;
   }
 
   h5 {
@@ -59,6 +63,7 @@ iframe#secVid {
     width: 787.5px;
     height: 450px;
     border-radius: 12px;
+    margin: 2em auto 2em auto;
   }
 }
 
@@ -66,6 +71,7 @@ iframe#secVid {
   iframe#secVid {
     height: 400px;
     width: 700px;
+    margin: 2em auto 2em auto;
   }
 }
 
@@ -78,6 +84,7 @@ iframe#secVid {
     width: 467px;
     height: 250px;
     border-radius: 12px;
+    margin:auto
   }
 
   h3 {
@@ -90,6 +97,7 @@ iframe#secVid {
     width: 437.5px;
     height: 250px;
     border-radius: 12px;
+    margin: 2em auto 2em auto;
   }
 }
 
@@ -102,6 +110,7 @@ iframe#secVid {
     width: 370px;
     height: 187px;
     border-radius: 12px;
+    margin: 2em auto 2em auto;
   }
 
   .box1 {
@@ -118,10 +127,12 @@ iframe#secVid {
     width: 310px;
     height: 175px;
     border-radius: 12px;
+    margin:auto
   }
 
   h3 {
-    font-size: 1.2em;
+    font-size: 2.2em;
+    text-align: center;
   }
 }
 
