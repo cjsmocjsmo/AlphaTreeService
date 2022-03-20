@@ -5,7 +5,7 @@ section.section2 {
 
 .footerNum {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 5.5em;
     color: antiquewhite;
 }
 
@@ -26,8 +26,26 @@ section.section2 {
 
 p.footerp {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 3.5em;
     color: antiquewhite;
+}
+
+@media (max-width: 2010px) {
+    p.footerp {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1810px) {
+    p.footerp {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 1710px) {
+    p.footerp {
+        font-size: 1.75em;
+    }
 }
 
 @media (max-width: 1310px) {
@@ -35,7 +53,6 @@ p.footerp {
         font-size: 1.5em;
     }
 }
-
 
 @media (max-width: 1010px) {
     p.footerp {

@@ -1,5 +1,5 @@
 .mainDiv {
-    margin-top: 72vh;
+    margin-top: 100vh;
 }
 
 .sec {
@@ -51,10 +51,34 @@ div.gallery {
 p.p-gallery {
     color: antiquewhite;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 4.2em;
 }
 
-@media (max-width: 1840px) {
+@media (max-width: 2010px) {
+    .mainDiv {
+        margin-top: 94vh;
+    }
+    .teleNum {
+        margin-top: 0.5em;
+        text-align: center;
+        font-size: 4.5em;
+        font-weight: 900;
+        color: antiquewhite;
+    }
+
+    .atsServ {
+        text-align: center;
+        font-size: 2.75em;
+        color: antiquewhite;
+    }
+
+    .card {
+        width: 17em;
+    }
+
+}
+
+@media (max-width: 1810px) {
     .teleNum {
         margin-top: 0.5em;
         text-align: center;

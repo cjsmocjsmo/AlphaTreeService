@@ -17,7 +17,27 @@ iframe#secVid {
   margin: 2em auto 2em auto;
 }
 
-@media (max-width: 1840px) {
+@media (max-width: 2010px) {
+  iframe#secVid {
+    width: 787.5px;
+    height: 450px;
+    border-radius: 12px;
+    margin: 2em auto 2em auto;
+  }
+
+  h5 {
+    color: antiquewhite;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  h3 {
+    color: antiquewhite;
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 1810px) {
   iframe#secVid {
     width: 787.5px;
     height: 450px;
