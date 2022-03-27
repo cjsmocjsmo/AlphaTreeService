@@ -110,8 +110,8 @@ $(document).on("click", "#revInput", function (event) {
 
 $(document).ready(function () {
     // fadeinout();
-    initLoadReviews();
-    initLoadQReviews();
+    // initLoadReviews();
+    // initLoadQReviews();
     // initLoadBackups();
 });
 
