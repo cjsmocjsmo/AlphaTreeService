@@ -1,22 +1,18 @@
-// function initLoadReviews() {
-//     $('.review1').empty();
-//     $.get('http://192.168.0.91/AllApprovedReviews', function (data) {
+// function initLoadBackups() {
+//     $('.backupsadmin').empty();
+//     $.get('http://192.168.0.90/getAllBackups', function (data) {
 //         console.log(data);
 //         $.each(data, function (key, val) {
-//             let one = "<div class='rev-card'>";
-//             let two = "<div class='rev-card-body'>";
-//             let three = "<h5 class='rev-card-title'>Review</h5>";
-//             let four = "<p class='rev-cbod'>" + val.Message + "</p>";
-//             let five = "<p class='rev-csig'>" + val.Sig + "</p>";
-//             let six = "</div></div>";
-//             let newReview = one + two + three + four + five + six;
-//             $('.review1').append(newReview);
+//             let one = "<p>" + val + "</p>";
+//             $('.backupsadmin').append(one);
 //         })
 //     })
 // }
+
 function initLoadReviews() {
     $('.review1').empty();
     $.get('http://alphatree.services/AllApprovedReviews', function (data) {
+        // $.get('http://192.168.0.90/AllApprovedReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
             let two = "<div class='rev-card-body'>";
@@ -32,6 +28,7 @@ function initLoadReviews() {
 function initLoadQReviews() {
     $('.reviewadmin').empty();
     $.get('http://alphatree.services/AllQReviews', function (data) {
+        // $.get('http://192.168.0.90/AllQReviews', function (data) {
         console.log(data);
         $.each(data, function (key, val) {
             let one = "<div class='reviewTop' id='" + val.UUID + "'>";
@@ -106,13 +103,16 @@ $(document).on("click", "#revInput", function (event) {
 })
 .on("click", "#email", function () {
     $("#email").val("")
+})
+.on("click", "#backup", function () {
+    initLoadBackups();
 });
-
 
 $(document).ready(function () {
     // fadeinout();
-    // initLoadReviews();
+    initLoadReviews();
     initLoadQReviews();
+    // initLoadBackups();
 });
 
 // document.querySelectorAll(".scene").forEach((elem) => {

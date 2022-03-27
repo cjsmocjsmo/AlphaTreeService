@@ -154,11 +154,36 @@
     }
 }
 
+@media (max-width: 1410px) {
+    .curt2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.75em;
+        top: 60vh;
+        margin-right: 4em;
+        margin-left: 4em;
+        text-align: center;
+    }
+
+    .curt2:first-letter {
+        font-size: 3.25em;
+    }
+
+    .curtSig2 {
+        position: relative;
+        color: antiquewhite;
+        font-size: 2.25em;
+        top: 72vh;
+        text-align: right;
+        margin-right: 4em;
+    }
+}
+
 @media (max-width: 1310px) {
     .curt2 {
         position: relative;
         color: antiquewhite;
-        top: 50vh;
+        top: 58vh;
         font-size: 2.35em;
         margin-right: 4em;
         margin-left: 4em;
@@ -184,8 +209,8 @@
         color: antiquewhite;
         top: 56vh;
         font-size: 2em;
-        margin-right: 3em;
-        margin-left: 3em;
+        margin-right: 4em;
+        margin-left: 4em;
     }
 
     .curt2:first-letter {
