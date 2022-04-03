@@ -1,3 +1,8 @@
+<script>
+	import cloudflare from '$lib/images/cloudflare.svg';
+	import firebase from '$lib/images/firebase.svg';
+</script>
+
 <section class="section2">
 	<p class="footerNum">360 516 8933</p>
 	<div class="bar">
@@ -29,9 +34,23 @@
 			<p class="footerp">Olympia WA 98504-4450</p>
 		</div>
 	</div>
+	<div class="logo-div">
+		<img class="fb" src={firebase} alt="fuckit"/>
+		<img class="cf" src={cloudflare} alt="fuckit"/>
+	</div>
 </section>
 
 <style>
+
+	.fb {
+		width: 35%;
+	}
+
+	.cf {
+		width: 50%;
+	}
+
+
 	section.section2 {
 		background-color: blue;
 		margin-top: 3em;
@@ -56,6 +75,14 @@
 		justify-content: center;
 		align-items: center;
 		padding: 10px;
+	}
+
+	.logo-div {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-top: 3em;
 	}
 
 	p.footerp {
@@ -103,6 +130,10 @@
 		}
 		p.footerp {
 			font-size: 1.5em;
+		}
+
+		.logo-div {
+			flex-direction: column;
 		}
 	}
 

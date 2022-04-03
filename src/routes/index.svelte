@@ -76,6 +76,7 @@
 	}
 
 	.foo-vid {
+		margin-top: 4em;
 		border-radius: 12px;
 	}
 

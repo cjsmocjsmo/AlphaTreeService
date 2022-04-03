@@ -6,7 +6,7 @@
 	better! We look forward to helping you with all your tree care needs.
 </h2>
 
-<p class="curtSig2">- Curtis McBride</p>
+<h3 class="curtSig2">- Curtis McBride</h3>
 
 <style>
 	.curt2 {
@@ -18,5 +18,10 @@
 		border-style: solid;
 		border-color: white;
 		padding: 17px;
+		margin-top: 3em;
+	}
+
+	.curtSig2 {
+		color: antiquewhite;
 	}
 </style>
