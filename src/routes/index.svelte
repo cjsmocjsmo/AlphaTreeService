@@ -9,6 +9,12 @@
 	import NavButton from '$lib/images/NavButton.svelte';
 </script>
 
+
+<svelte:head>
+	<title>AlphaTree Service</title>
+</svelte:head>
+
+
 <body>
 	<BannerComp />
 	<div class="revform">
