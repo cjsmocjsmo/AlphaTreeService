@@ -10,19 +10,21 @@
 	let name = '';
 	let email = '';
 	let message = '';
-	let date = cDay + '/' + cMonth + '/' + cYear;
-
+	let date = cDay + '-' + cMonth + '-' + cYear;
+	let formIsActive = true;
+	
 	const approved = 'no';
 	const quarintine = 'yes';
 	const del = 'no';
 
 	let time = currentDate.getHours() + currentDate.getMinutes() + currentDate.getSeconds();
-	let title = 'review' + time;
+	let uuid = date + time
+	let title = 'review' + uuid;
 
 	async function setReview() {
 		console.log(message);
 		await setDoc(doc(db, 'reviews', title), {
-			UUID: date + time,
+			UUID: uuid,
 			Date: date,
 			Name: name,
 			Email: email,
@@ -39,7 +41,7 @@
 		formIsActive = false;
 	}
 
-	let formIsActive = true;
+	
 </script>
 
 <h3>Post A Review:</h3>
