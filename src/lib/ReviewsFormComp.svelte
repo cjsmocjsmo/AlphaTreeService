@@ -22,6 +22,7 @@
 	async function setReview() {
 		console.log(message);
 		await setDoc(doc(db, 'reviews', title), {
+			UUID: date + time,
 			Date: date,
 			Name: name,
 			Email: email,
@@ -58,10 +59,7 @@
 	<br />
 	<button on:click={handleClick} id="revInput" class="foo">Post Review</button>
 {:else}
-	<p class="postrev">
-		Thank you for your comment. This is a moderated list so please be patient while we review your
-		comment.
-	</p>
+	<p class="postrev">Thank you for your review. </p>
 {/if}
 
 <style>
