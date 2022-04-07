@@ -35,26 +35,41 @@
 
 	function handleClick() {
 		setReview();
+		formIsActive = false;
 	}
+
+	let formIsActive = true;
 </script>
 
 <h3>Post A Review:</h3>
-<input
-	bind:value={name}
-	placeholder="Name (optional)"
-	id="name"
-	class="foo"
-	type="text"
-	name="name"
-/>
-<br />
-<input bind:value={email} placeholder="Email" id="email" class="foo" type="text" name="email" />
-<br />
-<textarea bind:value={message} id="message" name="message" rows="8" cols="30" />
-<br />
-<button on:click={handleClick} id="revInput" class="foo">Post Review</button>
+{#if formIsActive}
+	<input
+		bind:value={name}
+		placeholder="Name (optional)"
+		id="name"
+		class="foo"
+		type="text"
+		name="name"
+	/>
+	<br />
+	<input bind:value={email} placeholder="Email" id="email" class="foo" type="text" name="email" />
+	<br />
+	<textarea bind:value={message} id="message" name="message" rows="8" cols="30" />
+	<br />
+	<button on:click={handleClick} id="revInput" class="foo">Post Review</button>
+{:else}
+	<p class="postrev">
+		Thank you for your comment. This is a moderated list so please be patient while we review your
+		comment.
+	</p>
+{/if}
 
 <style>
+	.postrev {
+		color: antiquewhite;
+		font-size: 1.5em;
+	}
+
 	h3 {
 		color: antiquewhite;
 		font-size: 3em;
